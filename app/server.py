@@ -9,8 +9,7 @@ from starlette.middleware.cors import CORSMiddleware
 from starlette.responses import HTMLResponse, JSONResponse
 from starlette.staticfiles import StaticFiles
 
-export_file_url = 'https://www.googleapis.com/drive/v3/files/1SXtxmr1_vOeGRuRFIdWAVQ-iE2-ET8ts?alt=media&key=AIzaSyAo3sdBL8E-bm8zpgmTg5j1KrZnZZoyRG4
-'
+export_file_url = 'https://www.googleapis.com/drive/v3/files/1SXtxmr1_vOeGRuRFIdWAVQ-iE2-ET8ts?alt=media&key=AIzaSyAo3sdBL8E-bm8zpgmTg5j1KrZnZZoyRG4'
 export_file_name = 'export.pkl'
 
 classes = ['aachen_lacquer_shield_owl', 'african_owl', 'altenburg_trumpeter', 'american_giant_runt', 'american_show_racer', 'anatolian_ringbeater', 'ancient_tumbler', 'antwerp_smerle', 'arabian_trumpeter', 'archangel_pigeon', 'armenian_tumbler', 'australian_performing_tumbler', 'australian_saddleback_tumbler', 'barb_pigeon', 'belgian_ringbeater', 'berlin_long_faced_tumbler', 'berlin_short_faced_tumbler', 'bijeljina_roller', 'birmingham_roller', 'bohemian_fairy_swallow_pigeon', 'bokhara_trumpeter', 'breslau_tumbler', 'british_show_racer', 'brunner_pouter', 'budapest_highflyer', 'budapest_short_faced_tumbler', 'bursa_eumbler', 'english_magpie_pigeon', 'gaditano_pouter', 'galatz_roller', 'german_beauty_homer', 'german_modena', 'german_nun_pigeon', 'ghent_cropper', 'granadino_pouter', 'helmet', 'holle_cropper', 'homing_pigeon', 'ice_pigeon', 'indian_fantail', 'indian_gola', 'italian_owl', 'jacobin', 'kiev_tumbler', 'king_pigeon', 'komorn tumbler', 'k�nigsberg_colour_head_tumbler', 'lahore_pigeon', 'lucerne_gold_collar', 'modena_pigeon', 'norwich_cropper', 'nun pigeon', 'polish_helmet_pigeon', 'rock_dove']
